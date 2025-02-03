@@ -1,10 +1,14 @@
+"""
+This file ...
+"""
 import pickle
+
+import pandas as pd
 import uvicorn
 from fastapi import FastAPI
 from pydantic import BaseModel
-import pandas as pd
 
-app = FastAPI(title="Titanic Survival Prediction API")
+app = FastAPI(title="Titanic Survival Prediction Titanic Survival PredictionTitanic Survival PredictionTitanic Survival Prediction API")
 
 # Load the trained model
 with open("titanic_model.pkl", "rb") as f:
